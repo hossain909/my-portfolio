@@ -6,6 +6,9 @@
 #header-main{
   height: 100%;
 }
+#resume {
+  height: 100%;
+}
 .primaryColor {
   color: #29bb89;
 }
@@ -87,6 +90,17 @@
 .text-center{
   text-align: center;
 }
-/* p{
+p{
   margin-bottom: 0;
-} */
+}
+.Typewriter__wrapper {
+  font-size: 3em !important;
+  color: #f9004d !important;
+  font-weight: 900 !important;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.Typewriter__cursor {
+  font-size: 3.2em !important;
+  color: #f9004d !important;
+}

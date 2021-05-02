@@ -14,13 +14,13 @@ function Footer() {
           <span className="text-light">Designed and Developed by Taieb Hossain</span>
         </Col>
         <Col md="4" className="footer-copywright mt-1">
-          <span className="text-light">Copyright © {year} MB</span>
+          <span className="text-light">Copyright © {year} All rights reserved</span>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/marufpbt"
+                href="https://github.com/hossain909"
                 style={{ color: "White" }}
               >
                 <FontAwesomeIcon icon={faGithub} />
@@ -28,7 +28,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/marufpbt"
+                href="https://www.facebook.com/taieb.hossain.12/"
                 style={{ color: "White" }}
               >
                 <FontAwesomeIcon icon={faFacebook} />
@@ -36,7 +36,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/marufpbt/"
+                href="https://www.linkedin.com/in/taieb-hossain-a050a0211/"
                 style={{ color: "White" }}
               >
                 <FontAwesomeIcon icon={faLinkedinIn} />

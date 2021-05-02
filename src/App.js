@@ -12,6 +12,7 @@ import Projects from './components/Home/Projects/Projects';
 import Resume from './components/Resume/Resume';
 import Footer from './components/Shared/Footer/Footer';
 import MainNav from './components/Shared/MainNav/MainNav';
+import "./index.css";
 function App() {
   return (
     <Router>
