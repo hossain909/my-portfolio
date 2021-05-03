@@ -8,13 +8,14 @@ const About = () => {
       <div className="container">
         <SmallHeading text="About Me"></SmallHeading>
         <MediumHeading text="Some Key Details About Me"></MediumHeading>
-        <div className="d-flex justify-content-between rounded ">
+        <div className="row d-flex justify-content-between rounded ">
           <div className="col-md-6">
             <img className="img-fluid" style={{ height: "450px" }} src={hossain} alt="" />
           </div>
-          <div className="col-md-6 align-self-center text-light bg-dark p-4 rounded">
+          <div className="col-md-6 mt-3 align-self-center p-4 rounded">
+            <h4>Taieb Hossain</h4>
             <div>
-              <p>I'm a Frontend Web Developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript. I build websites that delight and inform. I do it well. I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand. The list of projects I follow on GitHub will give you a good idea of the types of tools I’d prefer to be using, and my Instapaper “Starred” list will give you a glimpse into the reading material I find interesting enough to share</p>
+              <p>Hello, I'm Taieb Hossain, a Front-End Developer. My core skill is based on JavaScript and React Js and I love to do most of the things using JavaScript. I love to make the websites more open to the world. I am able to do any programming-related task by handling difficult and hard situations at any time. And have a lot of skills in JavaScript, React and Node.js And I have done many projects related to this.</p>
             </div>
           </div>
         </div>
