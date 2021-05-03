@@ -10,6 +10,7 @@ import Blogs from './components/Home/Blogs/Blogs';
 import Home from './components/Home/Home/Home';
 import Projects from './components/Home/Projects/Projects';
 import Resume from './components/Resume/Resume';
+import Contact from './components/Shared/Contact/Contact';
 import Footer from './components/Shared/Footer/Footer';
 import MainNav from './components/Shared/MainNav/MainNav';
 import "./index.css";
@@ -32,6 +33,9 @@ function App() {
         </Route>
         <Route path="/resume">
           <Resume></Resume>
+        </Route>
+        <Route path="/contact">
+          <Contact></Contact>
         </Route>
       </Switch>
       <Footer></Footer>

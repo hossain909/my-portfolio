@@ -3,13 +3,16 @@ import html from "../../../assets/blog-images/html.png";
 import javascript from "../../../assets/blog-images/javascript.png";
 import react from "../../../assets/blog-images/react.png";
 import Buttons from '../../../UI/Buttons';
+import MediumHeading from '../../../UI/MediumHeading';
+import SmallHeading from '../../../UI/SmallHeading';
 import './Blogs.css';
 const Blogs = () => {
   return (
     <section id="blogs" class="blogs-area py-md-5 py-sm-4 py-3">
       <div class="container">
         <div class="section-title green-highlight text-center">
-          <h2>Blogs</h2>
+          <SmallHeading text="My Blogs"></SmallHeading>
+          <MediumHeading text="Some of my blogs"></MediumHeading>
         </div>
         <div class="row text-white py-md-5 py-sm-4 py-3">
           <div class="card-deck">

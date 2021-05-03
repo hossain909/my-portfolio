@@ -16,7 +16,7 @@ const Projects = () => {
       liveLink: "https://tech-world-bd.web.app/"
     },
     {
-      name: "Amazonia",
+      name: "Ema-John",
       desc: "A Full-stack E-commerce application with react and nodeJS. Implimented firebase authentication system. People can buy products with stripe payment system.",
       img: project4,
       githubLink: "https://simple-shoop.web.app/",
