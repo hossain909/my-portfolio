@@ -10,7 +10,7 @@ const HeaderMain = () => {
       <div className="container py-5 mb-5">
         <div className="row">
           <div className="col align-items-center align-self-center mt-5">
-            <p className="mb-0 font-30 uppercase bold-500 textColor ls-1"><span className="primaryColor font-25 d-block">Hello,</span> I'm Taieb Hossain</p>
+            <p className="mb-0 font-30 uppercase bold-500 text-white  ls-1"><span className="primaryColor font-25 d-block">Hello,</span> I'm Taieb Hossain</p>
             <Type></Type>
             <div className="d-flex justify-content-center mt-5">
               <div>

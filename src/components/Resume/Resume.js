@@ -9,7 +9,7 @@ const Resume = () => {
         <SmallHeading text="Resume"></SmallHeading>
         <div className="row mt-4">
           <div className="col-md-6">
-            <h4 className="bg-danger text-light p-2 mb-5 rounded">Programming Skills</h4>
+            <h5 className="bg-danger text-light p-2 mb-5 rounded">Programming Skills</h5>
             <div>
               <h6 className="bg-warning d-inline-block font-weight-bold rounded p-2 mb-4 ">Expertise</h6>
               <div className="d-flex">
@@ -40,7 +40,7 @@ const Resume = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <h4 className="bg-success text-light p-2 mb-5 rounded">Know About Me</h4>
+            <h5 className="bg-success text-light p-2 mb-5 rounded">Know About Me</h5>
             <div className="bg-dark text-light p-3 rounded">
               <p className="text-left"><span className="bold-500">BirthDay:</span> 1 oct 1998</p>
               <p className="text-left"><span className="bold-500">Age:</span> 23</p>
@@ -60,14 +60,14 @@ const Resume = () => {
                 <a
                   href="https://github.com/hossain909"
                 >
-                  <FontAwesomeIcon className="font-30 text-dark" icon={faGithub} />
+                  <FontAwesomeIcon className="font-30 text-light" icon={faGithub} />
                 </a>
               </li>
               <li className="social-icons">
                 <a
                   href="https://www.facebook.com/taieb.hossain.12/"
                 >
-                  <FontAwesomeIcon className="font-30" icon={faFacebook} />
+                  <FontAwesomeIcon style={{ color: "#1876f0" }} className="font-30" icon={faFacebook} />
                 </a>
               </li>
               <li className="social-icons">

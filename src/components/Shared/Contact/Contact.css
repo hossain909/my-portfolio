@@ -22,14 +22,12 @@
   box-shadow: none;
   border-bottom: 1px;
   border-style: none none solid none;
-  border-radius:0; 
-  border-color: #000;
+  border-radius: 20px;
 }
 
 .form-group .form-control:focus {
 	box-shadow: none;
   border-width: 0 0 2px 0;
-  border-color: #000;
   
 }
 
@@ -41,11 +39,12 @@ textarea {
     height: auto;
     padding: 13px 52px;
     font-size: 15px;
+    border-radius: 50px;
 }
 
 .btn-mod.btn-border {
-    color: #000000;
-    border: 1px solid #000000;
+    color: #faf6f6;
+    border: 1px solid #29bb89;
     background: transparent;
 }
 
@@ -76,9 +75,8 @@ textarea {
 }
 
 .btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
-    color: #fff;
-    border-color: #000;
-    background: #000;
+    color: #000;
+    background: #29bb89;
     outline: none;
 }
 

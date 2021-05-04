@@ -19,47 +19,47 @@ const Specialization = (props) => {
       desc: "Hands on experience in JavascriptES6",
       value: 80,
       textColor: colors.primaryColor,
-      pathColor: "#f9f871"
+      pathColor: "#ffcc29"
     },
     {
       skillName: "ReactJS",
       desc: "Hands on experience in ReactJS",
       value: 75,
       textColor: colors.primaryColor,
-      pathColor: "#00af91"
+      pathColor: "#62dafb"
     },
     {
       skillName: "JQuery",
       desc: "Hands on experience in JQuery",
       value: 60,
       textColor: colors.primaryColor,
-      pathColor: "#ff8303"
+      pathColor: "#0c69ad"
     },
     {
       skillName: "Bootstrap5",
       desc: "Hands on experience in Bootstrap5",
       value: 70,
       textColor: colors.primaryColor,
-      pathColor: "#ff8303"
+      pathColor: "#7853b2"
     },
     {
       skillName: "NodeJS",
       desc: "Hands on experience in NodeJS",
       value: 70,
       textColor: colors.primaryColor,
-      pathColor: "#ff8303"
+      pathColor: "#71a760"
     },
     {
       skillName: "MongoDB",
       desc: "Hands on experience in MongoDB",
       value: 70,
       textColor: colors.primaryColor,
-      pathColor: "#ff8303"
+      pathColor: "#13a952"
     }
   ]
   return (
     <div className="container py-5">
-      <Card style={{ padding: "50px" }}>
+      <Card style={{ padding: "50px", backgroundColor: "#040c0c" }}>
         <SmallHeading text="What I do"></SmallHeading>
         <MediumHeading text="Specializing in"></MediumHeading>
         <div className="flexRow wrap justify-sb" style={{ padding: "30px" }}>

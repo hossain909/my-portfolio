@@ -1,5 +1,6 @@
 .blog-card{
-    background-color: #070708;
+    background-color: #fff;
+    border: none;
 }
 .blog-card:hover{
     transform: scale(1.2);
