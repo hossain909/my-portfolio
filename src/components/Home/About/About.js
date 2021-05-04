@@ -13,7 +13,6 @@ const About = () => {
             <img className="img-fluid" style={{ height: "450px" }} src={hossain} alt="" />
           </div>
           <div className="col-md-6 mt-3 align-self-center p-4 rounded">
-            <h4>Taieb Hossain</h4>
             <div>
               <p>Hello, I'm Taieb Hossain, a Front-End Developer. My core skill is based on JavaScript and React Js and I love to do most of the things using JavaScript. I love to make the websites more open to the world. I am able to do any programming-related task by handling difficult and hard situations at any time. And have a lot of skills in JavaScript, React and Node.js And I have done many projects related to this.</p>
             </div>
