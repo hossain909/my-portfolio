@@ -13,6 +13,7 @@ const Resume = () => {
             <div>
               <h6 className="bg-warning d-inline-block font-weight-bold rounded p-2 mb-4 ">Expertise</h6>
               <div className="d-flex">
+                <p className="bg-dark text-light rounded px-2">JavascriptES6</p>
                 <p className="bg-dark text-light rounded px-2">ReactJS</p>
                 <p className="bg-dark text-light ml-2 rounded px-2">HTML5</p>
                 <p className="bg-dark text-light ml-2 rounded px-2">CSS3</p>
