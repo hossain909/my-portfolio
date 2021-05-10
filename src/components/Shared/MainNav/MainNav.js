@@ -6,7 +6,7 @@ const MainNav = () => {
   return (
     <Navbar expand="lg">
       <Container>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle className="btn-toggler" style={{ backgroundColor: "#04f9a3", boxShadow: "#416345 0px 0px 31px 4px" }} aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link className="link pr-4 text-light" as={Link} to="/">Home</Nav.Link>
