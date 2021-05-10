@@ -8,14 +8,14 @@ import { colors } from "../../../UI/style";
 const Specialization = (props) => {
   const skills = [
     {
-      skillName: "Html/Css",
+      skillName: "Html/CSS3",
       desc: "Hands on experience in Html/Css",
       value: 85,
       textColor: colors.primaryColor,
       pathColor: "#ff8303"
     },
     {
-      skillName: "JavascriptES6",
+      skillName: "Javascript",
       desc: "Hands on experience in JavascriptES6",
       value: 80,
       textColor: colors.primaryColor,
@@ -29,7 +29,7 @@ const Specialization = (props) => {
       pathColor: "#62dafb"
     },
     {
-      skillName: "JQuery",
+      skillName: "Material UI",
       desc: "Hands on experience in JQuery",
       value: 60,
       textColor: colors.primaryColor,
@@ -62,16 +62,17 @@ const Specialization = (props) => {
       <Card style={{ padding: "50px", backgroundColor: "#040c0c" }}>
         <SmallHeading text="What I do"></SmallHeading>
         <MediumHeading text="Specializing in"></MediumHeading>
-        <div className="flexRow wrap justify-sb" style={{ padding: "30px" }}>
-          {skills.map((skill, index) => <ProgressSkill
-            key={index}
-            skillName={skill.skillName}
-            desc={skill.desc}
-            value={skill.value}
-            textColor={colors.primaryColor}
-            pathColor={skill.pathColor}
-          ></ProgressSkill>)}
-
+        <div className="row" style={{ padding: "30px" }}>
+          {
+            skills.map((skill, index) => <ProgressSkill
+              key={index}
+              skillName={skill.skillName}
+              desc={skill.desc}
+              value={skill.value}
+              textColor={colors.primaryColor}
+              pathColor={skill.pathColor}
+            ></ProgressSkill>)
+          }
         </div>
       </Card>
     </div>

@@ -12,7 +12,7 @@ const Projects = () => {
       name: "Tech World",
       desc: "This is a MERN Stack Project. A single page web application with ReactJS in the frontend and NodeJS and MongoDB are used in the backend",
       img: project1,
-      githubLink: "https://github.com/hossain909/learn-programming",
+      githubLink: "https://github.com/hossain909/tech-world",
       liveLink: "https://tech-world-bd.web.app/"
     },
     {
@@ -43,7 +43,7 @@ const Projects = () => {
       <MediumHeading text="Have a look some of my latest works"></MediumHeading>
       <div className="row d-flex mt-5">
         {
-          projectData.map((project, index) => <ProjectCard project={project}></ProjectCard>)
+          projectData.map((project, index) => <ProjectCard key={index} project={project}></ProjectCard>)
         }
       </div>
     </section>

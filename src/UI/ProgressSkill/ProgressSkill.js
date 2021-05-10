@@ -3,8 +3,8 @@ import { buildStyles, CircularProgressbar } from 'react-circular-progressbar';
 import "./ProgressSkill.css";
 const ProgressSkill = (props) => {
   return (
-    <div className="col-md-6  flexRow align-center mtb-10">
-      <div className="progContainer">
+    <div className="my-2 m-auto">
+      <div className="progContainer col-sm-12 mt-5">
         <CircularProgressbar
           value={props.value}
           text={`${props.value}%`}
@@ -13,10 +13,7 @@ const ProgressSkill = (props) => {
             pathColor: props.pathColor,
           })}
         />
-      </div>
-      <div className="mlr-10">
-        <p className="font-16 bold-500 textColor mtb-10">{props.skillName}</p>
-        <p className="font-14 textColor mtb-10 gray">{props.desc}</p>
+        <p className="text-center text-uppercase mt-3">{props.skillName}</p>
       </div>
     </div>
   );
