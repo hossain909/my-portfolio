@@ -11,7 +11,7 @@ const Resume = () => {
           <div className="col-md-6">
             <h5 className="bg-danger text-light p-2 mb-5 rounded">Programming Skills</h5>
             <div>
-              <h6 className="bg-warning d-inline-block font-weight-bold rounded p-2 mb-4 ">Expertise</h6>
+              <h6 className="bg-warning text-dark d-inline-block font-weight-bold rounded p-2 mb-4 ">Expertise</h6>
               <div className="d-flex">
                 <p className="bg-dark text-light rounded px-2">ReactJS</p>
                 <p className="bg-dark text-light ml-2 rounded px-2">HTML5</p>
@@ -22,7 +22,7 @@ const Resume = () => {
               </div>
             </div>
             <div>
-              <h6 className="bg-warning rounded p-2 my-4 d-inline-block font-weight-bold">Comfortable</h6>
+              <h6 className="bg-warning text-dark rounded p-2 my-4 d-inline-block font-weight-bold">Comfortable</h6>
               <div className="d-flex">
                 <p className="bg-dark text-light rounded px-2">NodeJS</p>
                 <p className="bg-dark text-light ml-2 rounded px-2">EXpressJS</p>
@@ -30,7 +30,7 @@ const Resume = () => {
               </div>
             </div>
             <div>
-              <h6 className="bg-warning rounded p-2 my-4 d-inline-block font-weight-bold">Familiar With</h6>
+              <h6 className="bg-warning text-dark rounded p-2 my-4 d-inline-block font-weight-bold">Familiar With</h6>
               <div className="d-flex">
                 <p className="bg-dark text-light rounded px-2">Redux</p>
                 <p className="bg-dark text-light ml-2 rounded px-2">NextJS</p>
