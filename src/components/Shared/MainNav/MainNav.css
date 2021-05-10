@@ -1,3 +1,6 @@
-.link.active{
-  background-color: #29bb89;
+.main-nav-active{
+  background: transparent;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: #28bb88 0px 0px 20px 0px;
 }

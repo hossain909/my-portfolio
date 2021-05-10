@@ -1,5 +1,6 @@
 .progContainer{
-  height: 11rem;
-  width: 10rem;
+  height: 7rem;
+  width: 7rem;
   overflow: hidden;
+  margin: auto;
 }

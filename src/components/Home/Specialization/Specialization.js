@@ -36,7 +36,7 @@ const Specialization = (props) => {
       pathColor: "#0c69ad"
     },
     {
-      skillName: "Bootstrap5",
+      skillName: "Bootstrap",
       desc: "Hands on experience in Bootstrap5",
       value: 70,
       textColor: colors.primaryColor,
@@ -66,10 +66,10 @@ const Specialization = (props) => {
   ]
   return (
     <div className="container py-5">
-      <Card style={{ padding: "50px", backgroundColor: "#040c0c" }}>
+      <Card style={{ backgroundColor: "#040c0c" }}>
         <SmallHeading text="What I do"></SmallHeading>
         <MediumHeading text="Specializing in"></MediumHeading>
-        <div className="row" style={{ padding: "30px" }}>
+        <div className="row mt-3" style={{ padding: "30px" }}>
           {
             skills.map((skill, index) => <ProgressSkill
               key={index}
