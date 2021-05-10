@@ -43,6 +43,13 @@ const Specialization = (props) => {
       pathColor: "#7853b2"
     },
     {
+      skillName: "Sass",
+      desc: "Hands on experience in Bootstrap5",
+      value: 70,
+      textColor: colors.primaryColor,
+      pathColor: "#c76493"
+    },
+    {
       skillName: "NodeJS",
       desc: "Hands on experience in NodeJS",
       value: 70,
