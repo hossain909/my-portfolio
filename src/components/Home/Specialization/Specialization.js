@@ -10,23 +10,23 @@ const Specialization = (props) => {
     {
       skillName: "Html/CSS3",
       desc: "Hands on experience in Html/Css",
-      value: 85,
+      value: 80,
       textColor: colors.primaryColor,
-      pathColor: "#ff8303"
+      pathColor: "#dc4b25"
     },
     {
       skillName: "Javascript",
       desc: "Hands on experience in JavascriptES6",
-      value: 80,
+      value: 75,
       textColor: colors.primaryColor,
-      pathColor: "#ffcc29"
+      pathColor: "#fdca40"
     },
     {
       skillName: "ReactJS",
       desc: "Hands on experience in ReactJS",
-      value: 75,
+      value: 70,
       textColor: colors.primaryColor,
-      pathColor: "#62dafb"
+      pathColor: "#3797a4"
     },
     {
       skillName: "Material UI",
@@ -38,28 +38,28 @@ const Specialization = (props) => {
     {
       skillName: "Bootstrap5",
       desc: "Hands on experience in Bootstrap5",
-      value: 70,
+      value: 80,
       textColor: colors.primaryColor,
       pathColor: "#7853b2"
     },
     {
       skillName: "Sass",
       desc: "Hands on experience in Bootstrap5",
-      value: 70,
+      value: 65,
       textColor: colors.primaryColor,
       pathColor: "#c76493"
     },
     {
       skillName: "NodeJS",
       desc: "Hands on experience in NodeJS",
-      value: 70,
+      value: 65,
       textColor: colors.primaryColor,
       pathColor: "#71a760"
     },
     {
       skillName: "MongoDB",
       desc: "Hands on experience in MongoDB",
-      value: 70,
+      value: 65,
       textColor: colors.primaryColor,
       pathColor: "#13a952"
     }

@@ -42,15 +42,15 @@ const Resume = () => {
           <div className="col-md-6">
             <h5 className="bg-success text-light p-2 mb-5 rounded">Know About Me</h5>
             <div className="bg-dark text-light p-3 rounded">
-              <p className="text-left"><span className="bold-500">BirthDay:</span> 1 oct 1998</p>
-              <p className="text-left"><span className="bold-500">Age:</span> 23</p>
-              <p className="text-left"><span className="bold-500">Hometown:</span> Tangail, Bangladesh</p>
+              <p className="text-left mb-1"><span className="bold-500">BirthDay:</span> 1 oct 1998</p>
+              <p className="text-left mb-1"><span className="bold-500">Age:</span> 23</p>
+              <p className="text-left mb-1"><span className="bold-500">Hometown:</span> Tangail, Bangladesh</p>
               <p className="text-left"><span className="bold-500">Phone:</span> +88019575372754</p>
             </div>
             <div className="bg-dark text-light rounded  p-3 mt-3">
-              <p className="text-left"><span className="bold-500">Education:</span> B.A in History</p>
-              <p className="text-left"><span className="bold-500">University:</span> University Of Chittagong</p>
-              <p className="text-left"><span className="bold-500">Email:</span> taieb.hossain006@gmail.com</p>
+              <p className="text-left mb-1"><span className="bold-500">Education:</span> B.A in History</p>
+              <p className="text-left mb-1"><span className="bold-500">University:</span> University Of Chittagong</p>
+              <p className="text-left mb-1"><span className="bold-500">Email:</span> taieb.hossain006@gmail.com</p>
               <p className="text-left"><span className="bold-500">Hobbies:</span> Travelling, Reading Books etc</p>
             </div>
           </div>
