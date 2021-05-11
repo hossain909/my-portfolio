@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 import './MainNav.css';
 const MainNav = () => {
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" sticky="top">
       <Container>
         <Navbar.Toggle className="ml-3 mb-3 btn-toggler"
           style={{ backgroundColor: "#04f9a3", boxShadow: "#416345 0px 0px 31px 4px" }}

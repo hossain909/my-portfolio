@@ -6,11 +6,17 @@
 html{
   scroll-behavior: smooth;
 }
-body{
+/* body{
   background-color: #040c0c !important;
   color: #fff;
+} */
+body{
+  /* background-image: url("./assets/background/jelly-fish.jpg"); */
+  background: linear-gradient(rgb(0, 7, 53, 0.2), rgba(155, 2, 86, 0.5)), url("./assets/background/jelly-fish.jpg");
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
 }
-
 #header-main{
   height: 100%;
 }
@@ -102,13 +108,13 @@ p{
   margin-bottom: 0;
 }
 .Typewriter__wrapper {
-  font-size: 3em !important;
-  color: #f9004d !important;
+  font-size: 3.5em !important;
+  color: rgb(247, 16, 66, 0.9);
   font-weight: 900 !important;
   font-family: 'Ubuntu', sans-serif;
 }
 
 .Typewriter__cursor {
-  font-size: 3.2em !important;
-  color: #f9004d !important;
+  font-size: 3.5em !important;
+  color: #3c068c !important;
 }

@@ -7,14 +7,15 @@ import Specialization from '../Specialization/Specialization';
 
 const Home = () => {
   return (
-    <div className="container">
-      <HeaderMain></HeaderMain>
-      <About></About>
-      <Specialization></Specialization>
-      <Portfolio></Portfolio>
-      {/* <Projects></Projects> */}
-      <Contact></Contact>
-    </div>
+    <section id="background">
+      <div className="container">
+        <HeaderMain></HeaderMain>
+        <About></About>
+        <Specialization></Specialization>
+        <Portfolio></Portfolio>
+        <Contact></Contact>
+      </div>
+    </section>
   );
 };
 

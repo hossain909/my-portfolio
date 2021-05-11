@@ -1,6 +1,5 @@
 import React from 'react';
 import "react-circular-progressbar/dist/styles.css";
-import Card from '../../../UI/Card/Card';
 import MediumHeading from '../../../UI/MediumHeading';
 import ProgressSkill from '../../../UI/ProgressSkill/ProgressSkill';
 import SmallHeading from '../../../UI/SmallHeading';
@@ -65,8 +64,8 @@ const Specialization = (props) => {
     }
   ]
   return (
-    <div className="container py-5">
-      <Card style={{ backgroundColor: "#040c0c" }}>
+    <section className="py-5">
+      <div className="container text-light">
         <SmallHeading text="What I do"></SmallHeading>
         <MediumHeading text="Specializing in"></MediumHeading>
         <div className="row mt-3" style={{ padding: "30px" }}>
@@ -81,8 +80,8 @@ const Specialization = (props) => {
             ></ProgressSkill>)
           }
         </div>
-      </Card>
-    </div>
+      </div>
+    </section>
   );
 };
 
