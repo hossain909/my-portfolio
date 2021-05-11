@@ -23,8 +23,8 @@ const Works = () => {
                     <p className="font-14">{d.desc}</p>
                   </div>
                   <div className="link-container mt-md-3">
-                    <a href={d.github} target="_blank" alt="github" rel="noreferrer"><FontAwesomeIcon className="font-30 text-dark" icon={faGithub} /></a>
-                    <a href={d.live} target="_blank" alt="livelink" rel="noreferrer"><FontAwesomeIcon className="font-30 text-dark" icon={faExternalLinkAlt} /></a>
+                    <a href={d.github} target="_blank" alt="github" rel="noreferrer"><FontAwesomeIcon className="font-30 text-dark m-2" icon={faGithub} /></a>
+                    <a href={d.live} target="_blank" alt="livelink" rel="noreferrer"><FontAwesomeIcon className="font-30 text-dark m-2" icon={faExternalLinkAlt} /></a>
                   </div>
                 </div>
               </div>
