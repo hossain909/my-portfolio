@@ -11,7 +11,6 @@
   display: flex;
   position: absolute;
   left: 0;
-  transition: all 1s ease-out;
 }
 .s-container{
   width: 100vw;
@@ -20,13 +19,21 @@
   justify-content: center;
 }
 .s-item{
-  width: 79%;
+  width: 75%;
   height: 100%;
-  background-color: #06b175;
+  background-color: #00d087;
   color: #3a3232;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.s-item:hover{
+  transform: scale(1.1);
+}
+.s-item:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease-out;
 }
 .left{
   flex: 4;
@@ -65,5 +72,5 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  border-radius: 10px;
+  object-fit: cover;
 }

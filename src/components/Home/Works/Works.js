@@ -1,5 +1,5 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faChevronCircleLeft, faChevronCircleRight, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faChevronLeft, faChevronRight, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import allData from "../../../SliderData/SliderData";
@@ -34,8 +34,8 @@ const Works = () => {
             </div>
           </div>))}
       </div>
-      <p onClick={() => handleClick("left")} className="d-lg-block d-none arrow arrow-left"><FontAwesomeIcon className="text-info" icon={faChevronCircleLeft} /></p>
-      <p onClick={() => handleClick("right")} className="d-lg-block d-none arrow arrow-right"><FontAwesomeIcon className="text-info" icon={faChevronCircleRight} /></p>
+      <p onClick={() => handleClick("left")} className="d-lg-block d-none arrow arrow-left"><FontAwesomeIcon className="text-light" icon={faChevronLeft} /></p>
+      <p onClick={() => handleClick("right")} className="d-lg-block d-none arrow arrow-right"><FontAwesomeIcon className="text-light" icon={faChevronRight} /></p>
     </div>
   );
 };
