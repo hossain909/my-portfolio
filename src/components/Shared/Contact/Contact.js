@@ -4,8 +4,8 @@ import SmallHeading from '../../../UI/SmallHeading';
 import "./Contact.css";
 const Contact = () => {
   return (
-    <div className="container py-5 mt-5">
-      <div className="row mt-5">
+    <div className="container py-5 my-5">
+      <div className="row">
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
           <SmallHeading text="Contact"></SmallHeading>
           <MediumHeading text="Get In Touch"></MediumHeading>
