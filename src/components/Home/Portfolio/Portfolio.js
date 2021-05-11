@@ -5,6 +5,7 @@ import {
 import MediumHeading from '../../../UI/MediumHeading';
 import SmallHeading from '../../../UI/SmallHeading';
 import PortfolioList from '../PortfolioList/PortfolioList';
+import Works from '../Works/Works';
 import "./Portfolio.css";
 const Portfolio = () => {
   const [selected, setSelected] = useState("featured");
@@ -58,12 +59,13 @@ const Portfolio = () => {
             <>
               <div className="item my-4">
                 <img className="image" src={d.image} alt="" />
-                <h6 className="text-center mt-2">{d.title}</h6>
+                <p className="text-center mt-1 font-14">{d.title}</p>
               </div>
             </>
           ))
         }
       </div>
+      <Works></Works>
     </section>
   );
 };

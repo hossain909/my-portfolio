@@ -4,7 +4,6 @@ import About from '../About/About';
 import HeaderMain from '../HeaderMain/HeaderMain';
 import Portfolio from '../Portfolio/Portfolio';
 import Specialization from '../Specialization/Specialization';
-import Works from '../Works/Works';
 
 const Home = () => {
   return (
@@ -13,7 +12,6 @@ const Home = () => {
       <About></About>
       <Specialization></Specialization>
       <Portfolio></Portfolio>
-      <Works></Works>
       {/* <Projects></Projects> */}
       <Contact></Contact>
     </div>

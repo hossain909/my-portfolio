@@ -11,7 +11,7 @@ const Works = () => {
       setCurrentSlide(currentSlide < allData.length - 1 ? currentSlide + 1 : 0)
   }
   return (
-    <div style={{ marginBottom: "200px" }} className="works" id="works">
+    <div style={{ margin: "100px 0" }} className="works" id="works">
       <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
         {allData.map(d => (
           <div className="s-container">
