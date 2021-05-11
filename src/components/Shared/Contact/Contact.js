@@ -4,14 +4,14 @@ import SmallHeading from '../../../UI/SmallHeading';
 import "./Contact.css";
 const Contact = () => {
   return (
-    <div className="container mb-5  py-5">
-      <div className="row">
+    <div className="container py-5 mt-5">
+      <div className="row mt-5">
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
           <SmallHeading text="Contact"></SmallHeading>
           <MediumHeading text="Get In Touch"></MediumHeading>
         </div>
       </div>
-      <div className="row">
+      <div className="row mt-md-5">
         <div className="col-sm-12 col-md-8 m-auto">
           <form id="contact-form" name="myForm" className="form" action="#" method="POST">
             <div className="form-group">

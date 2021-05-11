@@ -64,11 +64,11 @@ const Specialization = (props) => {
     }
   ]
   return (
-    <section className="py-5">
-      <div className="container text-light">
+    <section className=" py-5">
+      <div className="container text-light mt-md-5">
         <SmallHeading text="What I do"></SmallHeading>
         <MediumHeading text="Specializing in"></MediumHeading>
-        <div className="row mt-3" style={{ padding: "30px" }}>
+        <div className="row mt-md-5" style={{ padding: "30px" }}>
           {
             skills.map((skill, index) => <ProgressSkill
               key={index}
