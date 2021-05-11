@@ -2,8 +2,9 @@ import React from 'react';
 import Contact from '../../Shared/Contact/Contact';
 import About from '../About/About';
 import HeaderMain from '../HeaderMain/HeaderMain';
-import Projects from '../Projects/Projects';
+import Portfolio from '../Portfolio/Portfolio';
 import Specialization from '../Specialization/Specialization';
+import Works from '../Works/Works';
 
 const Home = () => {
   return (
@@ -11,8 +12,9 @@ const Home = () => {
       <HeaderMain></HeaderMain>
       <About></About>
       <Specialization></Specialization>
-      {/* <Portfolio></Portfolio> */}
-      <Projects></Projects>
+      <Portfolio></Portfolio>
+      <Works></Works>
+      {/* <Projects></Projects> */}
       <Contact></Contact>
     </div>
   );
