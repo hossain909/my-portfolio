@@ -24,7 +24,7 @@ const Blogs = () => {
                   <p class="card-text text-dark font-14">Discussed very basic topics of HTML & HTML5 that is needed to start a interview.</p>
                 </div>
                 <div class="text-center py-4">
-                  <Buttons link="#" label="Read More"></Buttons>
+                  <Buttons link="#" label="Comming soon..."></Buttons>
                 </div>
               </div>
             </div>
@@ -36,7 +36,7 @@ const Blogs = () => {
                   <p class="card-text font-14 text-dark">Discussed about fundamental core concepts of React.</p>
                 </div>
                 <div className="text-center py-4">
-                  <Buttons link="#" label="Read More"></Buttons>
+                  <Buttons link="#" label="Comming soon..."></Buttons>
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ const Blogs = () => {
                   <p class="card-text font-14 text-dark">Discussed some of tricky topics of JavaScript for a beginner friendly blog.</p>
                 </div>
                 <div className="text-center py-4">
-                  <Buttons link="#" label="Read More"></Buttons>
+                  <Buttons link="#" label="Comming soon..."></Buttons>
                 </div>
               </div>
             </div>
