@@ -12,7 +12,7 @@ const About = () => {
         <MediumHeading text="Some Key Details About Me"></MediumHeading>
         <div className="row d-flex  justify-content-between my-5">
           <div className="col-md-5 mt-md-5">
-            <img className="img-fluid mt-3" src={hossain} alt="" />
+            <img className="img-fluid px-3 mt-3" src={hossain} alt="" />
           </div>
           <div className="col-md-7 mt-3 align-self-center p-4 rounded">
             <div className=" text-light p-3 ">
