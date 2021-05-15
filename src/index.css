@@ -6,17 +6,14 @@
 html{
   scroll-behavior: smooth;
 }
-/* body{
+body{
   background-color: #040c0c !important;
   color: #fff;
-} */
-body{
-  background-image: url("./assets/background/jelly-fish.jpg");
-  /* background: linear-gradient(rgb(0, 7, 53, 0.2), rgba(155, 2, 86, 0.5)), url("./assets/background/jelly-fish.jpg"); */
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: cover;
 }
+/* body{
+  background-color: linear-gradient(rgb(0, 7, 53, 0.2), rgba(155, 2, 86, 0.5)) !important;
+  color: #000;
+} */
 #header-main{
   height: 100%;
 }
