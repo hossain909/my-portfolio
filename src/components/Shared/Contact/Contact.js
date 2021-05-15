@@ -11,7 +11,7 @@ const Contact = () => {
           <MediumHeading text="Get In Touch"></MediumHeading>
         </div>
       </div>
-      <div className="row mt-md-5">
+      <div className="row">
         <div className="col-sm-12 col-md-8 m-auto">
           <form id="contact-form" name="myForm" className="form" action="#" method="POST">
             <div className="form-group">

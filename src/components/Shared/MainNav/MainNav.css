@@ -1,6 +1,9 @@
 .main-nav-active{
-  background: transparent;
   border-radius: 30px;
   transition: all 0.5s ease-in-out;
   box-shadow: #28bb88 0px 0px 20px 0px;
+}
+.my-nav{
+  /* background-color: #040c0c !important; */
+  background-color: #070707;
 }
