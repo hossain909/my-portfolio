@@ -10,10 +10,6 @@ body{
   background-color: #040c0c !important;
   color: #fff;
 }
-/* body{
-  background-color: linear-gradient(rgb(0, 7, 53, 0.2), rgba(155, 2, 86, 0.5)) !important;
-  color: #000;
-} */
 #header-main{
   height: 100%;
 }

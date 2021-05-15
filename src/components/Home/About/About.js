@@ -1,5 +1,5 @@
 import React from 'react';
-import hossain from "../../../assets/myImage/hme2.png";
+import hossain from "../../../assets/myImage/me2.png";
 import Buttons from '../../../UI/Buttons';
 import MediumHeading from "../../../UI/MediumHeading";
 import SmallHeading from "../../../UI/SmallHeading";
