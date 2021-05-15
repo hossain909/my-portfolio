@@ -64,7 +64,7 @@ const Specialization = (props) => {
     }
   ]
   return (
-    <section className=" py-5">
+    <section className="py-5">
       <div className="container text-light mt-md-5">
         <SmallHeading text="What I do"></SmallHeading>
         <MediumHeading text="Specializing in"></MediumHeading>

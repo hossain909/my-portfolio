@@ -11,7 +11,7 @@ const Works = () => {
       setCurrentSlide(currentSlide < allData.length - 1 ? currentSlide + 1 : 0)
   }
   return (
-    <div style={{ margin: "100px 0" }} className="works py-5" id="works">
+    <section style={{ margin: "100px 0" }} className="works" id="works">
       <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
         {allData.map(d => (
           <div className="s-container">
@@ -29,14 +29,14 @@ const Works = () => {
                 </div>
               </div>
               <div className="right">
-                <img className="slider-img" src={d.image} alt="" />
+                <img className="img-fluid slider-img" src={d.image} alt="" />
               </div>
             </div>
           </div>))}
       </div>
       <p onClick={() => handleClick("left")} className="d-lg-block d-none arrow arrow-left"><FontAwesomeIcon className="text-light" icon={faChevronLeft} /></p>
       <p onClick={() => handleClick("right")} className="d-lg-block d-none arrow arrow-right"><FontAwesomeIcon className="text-light" icon={faChevronRight} /></p>
-    </div>
+    </section>
   );
 };
 

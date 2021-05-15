@@ -42,10 +42,10 @@ const Portfolio = () => {
 
   }, [selected])
   return (
-    <section className="portfolio py-5 my-5" id="portfolio">
+    <section className="portfolio py-5" id="portfolio">
       <SmallHeading text="My Projects"></SmallHeading>
       <MediumHeading text="Have a look some of my latest works"></MediumHeading>
-      <ul className="my-5">
+      <ul className="py-5">
         {list.map(item => <PortfolioList
           title={item.title}
           active={selected === item.id}
@@ -67,6 +67,7 @@ const Portfolio = () => {
       </div>
       <Works></Works>
     </section>
+
   );
 };
 
