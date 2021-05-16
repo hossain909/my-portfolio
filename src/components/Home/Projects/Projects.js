@@ -24,7 +24,7 @@ const Projects = () => {
     },
     {
       name: "Learn Programming",
-      desc: "A single page web app for E-commerce business and Manage order with stripe payment gateway and Authentication with firebase ",
+      desc: "A single page web app for E-commerce business and Manage order with stripe payment gateway and Authentication with firebase authentication ",
       img: project2,
       githubLink: "https://github.com/hossain909/book-shop",
       liveLink: "https://online-book-shoop.web.app/"

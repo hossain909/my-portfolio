@@ -8,7 +8,7 @@ import './App.css';
 import About from './components/Home/About/About';
 import Blogs from './components/Home/Blogs/Blogs';
 import Home from './components/Home/Home/Home';
-import Portfolio from './components/Home/Portfolio/Portfolio';
+import Projects from './components/Home/Projects/Projects';
 import Resume from './components/Resume/Resume';
 import Contact from './components/Shared/Contact/Contact';
 import Footer from './components/Shared/Footer/Footer';
@@ -26,7 +26,7 @@ function App() {
           <About></About>
         </Route>
         <Route path="/projects">
-          <Portfolio></Portfolio>
+          <Projects></Projects>
         </Route>
         <Route path="/blogs">
           <Blogs></Blogs>
