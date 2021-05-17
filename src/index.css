@@ -103,7 +103,8 @@ p{
 }
 .Typewriter__wrapper {
   font-size: 3.2rem !important;
-  color: rgb(247, 16, 66, 0.9);
+  /* color: rgb(247, 16, 66, 0.9); */
+  color: #f0c400;
   font-weight: 900 !important;
   font-family: 'Ubuntu', sans-serif;
 }

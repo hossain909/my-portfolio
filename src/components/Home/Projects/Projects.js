@@ -11,6 +11,7 @@ const Projects = () => {
     {
       name: "Tech World",
       desc: "This is a MERN Stack Project. A single page web application with ReactJS in the frontend and NodeJS and MongoDB are used in the backend",
+      technology: ["React.js", "React-Router", "Node.js", "Express.js", "Firebase Auth", "MongoDB"],
       img: project1,
       githubLink: "https://github.com/hossain909/tech-world",
       liveLink: "https://tech-world-bd.web.app/"
@@ -19,6 +20,7 @@ const Projects = () => {
       name: "Ema-John",
       desc: "A Full-stack E-commerce application with react and nodeJS. Implimented firebase authentication system. People can buy products with stripe payment system.",
       img: project4,
+      technology: ["React.js", "Redux", "Node.js", "Express.js", "Firebase Auth", "MongoDB"],
       githubLink: "https://simple-shoop.web.app/",
       liveLink: "https://github.com/hossain909/react-e-commerce"
     },
@@ -26,6 +28,7 @@ const Projects = () => {
       name: "Learn Programming",
       desc: "A single page web app for E-commerce business and Manage order with stripe payment gateway and Authentication with firebase authentication ",
       img: project2,
+      technology: ["React.js", "Node.js", "Express.js", "Firebase Auth", "MongoDB"],
       githubLink: "https://github.com/hossain909/book-shop",
       liveLink: "https://online-book-shoop.web.app/"
     },
@@ -33,6 +36,7 @@ const Projects = () => {
       name: "Paradise Travels",
       desc: "A singe page Travel application with Google login system. Use have to login and the can buy a ride. User also see their desired location in the google map.",
       img: project3,
+      technology: ["React.js", "React Bootstrap", "Firebase Authentication"],
       githubLink: "https://github.com/hossain909/paradise-travels",
       liveLink: "https://paradise-travels-bd.web.app/"
     },

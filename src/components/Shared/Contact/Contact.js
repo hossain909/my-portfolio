@@ -1,8 +1,21 @@
+import emailjs, { init } from 'emailjs-com';
 import React from 'react';
 import MediumHeading from '../../../UI/MediumHeading';
 import SmallHeading from '../../../UI/SmallHeading';
 import "./Contact.css";
+init("user_MgysUjAltD4A31wHjHZQF");
 const Contact = () => {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_fh3zilo', 'template_r9ky9nj', e.target, 'user_MgysUjAltD4A31wHjHZQF')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      })
+    e.target.reset()
+  }
   return (
     <section className="container py-5 mt-5">
       <div className="row">
@@ -13,7 +26,7 @@ const Contact = () => {
       </div>
       <div className="row">
         <div className="col-sm-12 col-md-8 m-auto">
-          <form id="contact-form" name="myForm" className="form" action="#" method="POST">
+          <form id="contact-form" name="myForm" className="form" onSubmit={sendEmail} method="POST">
             <div className="form-group">
               <label className="form-label text-light ml-1" id="nameLabel" htmlFor="name">Name</label>
               <input type="text" className="form-control p-4 col-sm-12" id="name" name="name" placeholder="Your name" tabIndex="1" />
