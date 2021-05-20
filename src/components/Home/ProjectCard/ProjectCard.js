@@ -17,7 +17,6 @@ const ProjectCard = ({ project }) => {
           <p className="card-text my-3 ">{desc}</p>
           {
             technology.map(item => <li className="d-inline-block bg-dark ml-2 text-light px-1 mt-2 rounded">{item}</li>
-
             )
           }
           <div className="w-25 ml-auto pt-2">
