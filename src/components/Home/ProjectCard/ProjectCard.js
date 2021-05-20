@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
         <img className="img-fluid w-100" src={img} alt={name} style={{ height: "250px" }} />
         <div className="card-body">
           <h4 className="card-title font-weight-bold text-primary text-center">{name}</h4>
-          <p className="card-text my-3 ">{desc}</p>
+          <p className="my-3 text-dark">{desc}</p>
           {
             technology.map(item => <li className="d-inline-block bg-dark ml-2 text-light px-1 mt-2 rounded">{item}</li>
             )
